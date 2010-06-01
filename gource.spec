@@ -9,6 +9,7 @@ Source0:        http://gource.google.com/files/%{name}-%{version}.tar.gz
 BuildRequires:  libSDL-devel
 BuildRequires:  libSDL_image-devel
 BuildRequires:  ftgl-devel
+BuildRequires:  pcre-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
