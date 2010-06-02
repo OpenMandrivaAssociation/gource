@@ -10,6 +10,7 @@ BuildRequires:  libSDL-devel
 BuildRequires:  libSDL_image-devel
 BuildRequires:  ftgl-devel
 BuildRequires:  pcre-devel
+BuildRequires:  png-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
