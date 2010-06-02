@@ -11,6 +11,7 @@ BuildRequires:  libSDL_image-devel
 BuildRequires:  ftgl-devel
 BuildRequires:  pcre-devel
 BuildRequires:  png-devel
+BuildRequires:  jpeg-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
