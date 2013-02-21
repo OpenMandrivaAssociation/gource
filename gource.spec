@@ -12,7 +12,8 @@ BuildRequires:  ftgl-devel
 BuildRequires:  pcre-devel
 BuildRequires:  png-devel
 BuildRequires:  jpeg-devel
-BuildRequires:	libglew-devel	
+BuildRequires:	pkgconfig(glew)
+BuildRequires:	boost-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
