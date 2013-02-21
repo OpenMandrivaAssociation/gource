@@ -1,13 +1,13 @@
 Summary:        Gource is a software version control visualization tool
 Name:           gource
-Version:        0.37
-Release:        %mkrel 1
+Version:        0.39
+Release:        1
 License:        GPLv3
 Group:          Monitoring
 URL:            http://code.google.com/p/gource/
 Source0:        http://gource.googlecode.com/files/%{name}-%{version}.tar.gz
-BuildRequires:  libSDL-devel
-BuildRequires:  libSDL_image-devel
+BuildRequires:  pkgconfig(sdl)
+BuildRequires:  pkgconfig(SDL_image)
 BuildRequires:  ftgl-devel
 BuildRequires:  pcre-devel
 BuildRequires:  png-devel
