@@ -14,6 +14,7 @@ BuildRequires:  png-devel
 BuildRequires:  jpeg-devel
 BuildRequires:	pkgconfig(glew)
 BuildRequires:	boost-devel
+BuildRequires:	glm-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
