@@ -34,7 +34,7 @@ contributed to the project.
 %{__rm} -rf %{buildroot}
 %{makeinstall_std}
 
-%find_lang %{name}
+%find_lang %{name} || touch %{name}.lang
 
 %clean
 rm -rf %{buildroot}
