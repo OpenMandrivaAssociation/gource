@@ -1,4 +1,4 @@
-Summary:        Gource is a software version control visualization tool
+Summary:        Software version control visualization tool
 Name:           gource
 Version:        0.39
 Release:        1
