@@ -1,7 +1,7 @@
 Summary:        Software version control visualization tool
 Name:           gource
 Version:        0.39
-Release:        1
+Release:        2
 License:        GPLv3
 Group:          Monitoring
 URL:            http://code.google.com/p/gource/
@@ -15,7 +15,6 @@ BuildRequires:  jpeg-devel
 BuildRequires:	pkgconfig(glew)
 BuildRequires:	boost-devel
 BuildRequires:	glm-devel
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 Software projects are displayed by Gource as an animated tree with the root
@@ -31,16 +30,13 @@ contributed to the project.
 %{make}
 
 %install
-%{__rm} -rf %{buildroot}
 %{makeinstall_std}
 
 %find_lang %{name} || touch %{name}.lang
 
 %clean
-rm -rf %{buildroot}
 
 %files -f %{name}.lang
-%defattr(-,root,root)
 %doc ChangeLog README THANKS COPYING INSTALL
 %{_bindir}/gource
 %{_datadir}/gource
