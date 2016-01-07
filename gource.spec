@@ -1,11 +1,11 @@
 Summary:        Software version control visualization tool
 Name:           gource
-Version:        0.40
-Release:        3
+Version:        0.43
+Release:        1
 License:        GPLv3
 Group:          Monitoring
-URL:            http://code.google.com/p/gource/
-Source0:        http://gource.googlecode.com/files/%{name}-%{version}.tar.gz
+URL:            http://gource.io
+Source0:	https://github.com/acaudwell/Gource/releases/download/gource-%{version}/gource-%{version}.tar.gz
 BuildRequires:  pkgconfig(sdl)
 BuildRequires:  pkgconfig(SDL_image)
 BuildRequires:  ftgl-devel
