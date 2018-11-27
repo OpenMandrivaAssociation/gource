@@ -32,11 +32,7 @@ contributed to the project.
 %install
 %{makeinstall_std}
 
-%find_lang %{name} || touch %{name}.lang
-
-%clean
-
-%files -f %{name}.lang
+%files
 %doc ChangeLog README THANKS COPYING INSTALL
 %{_bindir}/gource
 %{_datadir}/gource
