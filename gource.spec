@@ -1,6 +1,6 @@
 Summary:        Software version control visualization tool
 Name:           gource
-Version:        0.49
+Version:        0.50
 Release:        1
 License:        GPLv3
 Group:          Monitoring
@@ -26,11 +26,11 @@ contributed to the project.
 %setup -q
 
 %build
-%{configure2_5x}
-%{make}
+%configure
+%make_build
 
 %install
-%{makeinstall_std}
+%make_install
 
 %files
 %doc ChangeLog README THANKS COPYING INSTALL
