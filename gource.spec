@@ -1,7 +1,7 @@
 Summary:        Software version control visualization tool
 Name:           gource
 Version:        0.51
-Release:        1
+Release:        2
 License:        GPLv3
 Group:          Monitoring
 URL:            http://gource.io
