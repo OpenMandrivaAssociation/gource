@@ -1,7 +1,7 @@
 Summary:        Software version control visualization tool
 Name:           gource
-Version:        0.51
-Release:        4
+Version:        0.54
+Release:        1
 License:        GPLv3
 Group:          Monitoring
 URL:            http://gource.io
@@ -33,7 +33,7 @@ contributed to the project.
 %make_install
 
 %files
-%doc ChangeLog README THANKS COPYING INSTALL
+%doc ChangeLog README* THANKS COPYING INSTALL
 %{_bindir}/gource
 %{_datadir}/gource
 %{_mandir}/man1/gource.1*
