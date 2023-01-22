@@ -33,7 +33,7 @@ contributed to the project.
 %make_install
 
 %files
-%doc ChangeLog README THANKS COPYING INSTALL
+%doc ChangeLog README* THANKS COPYING INSTALL
 %{_bindir}/gource
 %{_datadir}/gource
 %{_mandir}/man1/gource.1*
