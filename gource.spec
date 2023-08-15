@@ -1,7 +1,7 @@
 Summary:        Software version control visualization tool
 Name:           gource
 Version:        0.54
-Release:        2
+Release:        3
 License:        GPLv3
 Group:          Monitoring
 URL:            http://gource.io
@@ -23,10 +23,10 @@ files as leaves. Developers can be seen working on the tree at the times they
 contributed to the project.
 
 %prep
-%setup -q
+%autosetup -p1
+%configure
 
 %build
-%configure
 %make_build
 
 %install
