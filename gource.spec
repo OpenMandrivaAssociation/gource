@@ -6,6 +6,11 @@ License:        GPLv3
 Group:          Monitoring
 URL:            https://gource.io
 Source0:	https://github.com/acaudwell/Gource/releases/download/gource-%{version}/gource-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(sdl2)
 BuildRequires:  pkgconfig(SDL2_image)
 BuildRequires:  ftgl-devel
